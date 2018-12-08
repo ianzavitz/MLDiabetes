@@ -2,12 +2,9 @@
 # coding: utf-8
 
 
-
-
 import matplotlib.pyplot as plt
 from operator import itemgetter
 import numpy as np
-import re
 from sklearn.ensemble import RandomForestClassifier,BaggingClassifier
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -15,16 +12,10 @@ from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score
 from sklearn.linear_model import LogisticRegression
-from sklearn.feature_selection import RFECV
-from sklearn.feature_selection import RFE
-from sklearn.preprocessing import Normalizer
-from sklearn.model_selection import StratifiedKFold
-from sklearn.datasets import make_classification
 from sklearn.svm import SVC
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.calibration import calibration_curve
 from matplotlib import pyplot
-from sklearn.model_selection import GridSearchCV
 from sklearn.multiclass import OneVsRestClassifier
 
 print("FORMATTING DATA") 
