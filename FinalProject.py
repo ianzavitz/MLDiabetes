@@ -5,7 +5,6 @@
 
 
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
 from operator import itemgetter
 import numpy as np
 import re
